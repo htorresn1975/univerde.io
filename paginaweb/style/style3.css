@@ -1,0 +1,66 @@
+body
+{
+    background-image: url(../img/udem.jpeg);
+    background-repeat: no-repeat;
+    display: cover;
+    margin: 0%;
+    
+}
+
+nav
+{
+    background-color: rgba(127, 255, 212, 0.089);
+    padding: 18px;
+    text-align: right;
+}
+
+a
+{
+   background-color: aquamarine;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: black;
+   padding: 12px;
+   text-decoration: none;
+   margin: 2px;
+   font-size: none;
+   border-radius: 10px;
+
+}
+
+a:hover
+{
+    background-color: rgba(240, 255, 240, 0.192);
+}
+footer
+{
+    text-align: center;
+    background-color: rgba(15, 187, 9, 0.555);
+    padding: 3px;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+}
+table
+{
+padding: 10px; 
+margin: auto;
+margin-top: 20%;
+}
+th
+{
+    border: 10px;
+    text-align: center;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    font-size: xx-large;
+   color: rgb(189, 10, 10);
+}
+td
+{
+color: rgba(194, 7, 119, 0.886);  
+border-radius: 10px;
+border: solid;
+font-size: x-large;
+border-color: rgb(25, 134, 174);
+background-color: beige;
+}

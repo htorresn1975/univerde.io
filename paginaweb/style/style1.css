@@ -1,0 +1,62 @@
+body
+{
+    background-image: url(../img/udem.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+nav
+{
+    background-color: rgba(127, 255, 212, 0.089);
+    padding: 18px;
+    text-align: right;
+}
+
+a
+{
+   background-color: aquamarine;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: black;
+   padding: 12px;
+   text-decoration: none;
+   margin: 2px;
+   font-size: none;
+   border-radius: 10px;
+
+}
+
+a:hover
+{
+    background-color: rgba(240, 255, 240, 0.192);
+}
+
+section
+{
+    padding: 10px;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+aside
+{
+    background-position: 8px;
+    color: azure;
+    align-content: center;
+    margin: auto;
+    
+}
+
+p
+{
+color: rgb(202, 9, 9);
+background-color: aquamarine;
+text-align: justify;
+}
+h1
+{
+    text-align: center;
+    color: rgb(255, 94, 0);
+}
