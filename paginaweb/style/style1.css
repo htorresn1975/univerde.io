@@ -1,6 +1,12 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 body
 {
-    background-image: url(../img/udem.jpeg);
+    background-color: rgba(7, 7, 7, 0.726);
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
@@ -54,9 +60,155 @@ p
 color: rgb(202, 9, 9);
 background-color: aquamarine;
 text-align: justify;
+border-radius: 4px;
+padding: 20px;
+}
+
+p:hover
+{
+
+    background-color: antiquewhite;
 }
 h1
 {
     text-align: center;
     color: rgb(255, 94, 0);
+}
+footer
+{
+    text-align: center;
+    background-color: rgba(15, 187, 9, 0.26);
+    padding: 3px;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+}
+
+footer .social
+{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 4px 0;
+}
+footer .social a
+{
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+footer .social a:hover
+{
+    transform: translateY(-6px);
+}
+@media (max-width: 500px)
+{
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: rgba(7, 7, 7, 0.726);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+nav
+{
+    background-color: aqua;
+    padding: 8px;
+    text-align: center;
+    display: center;
+}
+
+a
+{
+   background-color: rgb(246, 255, 127);
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: rgb(35, 20, 172);
+   padding: 12px;
+   text-decoration: rgb(115, 255, 0);
+   margin: 2px;
+   font-size: none;
+   align-content: end;
+   border-radius: 10px;
+   display: contents;
+}
+
+a:hover
+{
+    background-color: rgba(240, 255, 240, 0.192);
+}
+
+section
+{
+    padding: 10px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+aside
+{
+    background-position: 8px;
+    color: azure;
+    align-content: center;
+    margin: auto;
+    display: block;
+    
+}
+
+p
+{
+color: rgb(202, 9, 9);
+background-color: aquamarine;
+text-align: center;
+border-radius: 4px;
+padding: 20px;
+}
+
+p:hover
+{
+
+    background-color: antiquewhite;
+}
+h1
+{
+    text-align: center;
+    color: rgb(255, 94, 0);
+}
+footer
+{
+    text-align: center;
+    background-color: rgba(15, 187, 9, 0.26);
+    padding: 3px;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+}
+
+footer .social
+{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 4px 0;
+}
+footer .social a
+{
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+footer .social a:hover
+{
+    transform: translateY(-6px);
+}
 }

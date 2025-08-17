@@ -1,3 +1,9 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 body
 {
     background-image: url(../img/udem.jpeg);
@@ -10,6 +16,7 @@ nav
     background-color: rgba(127, 255, 212, 0.089);
     padding: 18px;
     text-align: right;
+    
 }
 
 a
@@ -29,13 +36,123 @@ a:hover
 {
     background-color: rgba(240, 255, 240, 0.192);
 }
-
+main
+{
+    flex: 1;
+}
+h1
+{
+    color: #0709a0;
+    text-align: center;
+    margin: auto;
+    height: 60px;
+}
 footer
 {
     text-align: center;
-    background-color: rgba(15, 187, 9, 0.555);
+    background-color: rgba(15, 187, 9, 0.26);
     padding: 3px;
     bottom: 0;
     width: 100%;
     position: absolute;
+}
+
+footer .social
+{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 4px 0;
+}
+footer .social a
+{
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+footer .social a:hover
+{
+    transform: translateY(-6px);
+}
+@media (max-width: 500px)
+{
+    *
+   {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: url(../img/udem.jpeg);
+    background-repeat: no-repeat;
+    display: block;
+  }
+
+nav
+{
+   
+    padding: 8px;
+    text-align: center;
+    display: inline-block;
+}
+
+a
+{
+   background-color: rgb(127, 255, 202);
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: rgb(7, 7, 7);
+   padding: 12px;
+   text-decoration: none;
+   margin: 2px;
+   font-size: none;
+   align-content: left;
+   border-radius: 10px;
+   display: block;
+
+}
+
+a:hover
+{
+    background-color: rgba(240, 255, 240, 0.192);
+}
+main
+{
+    flex: 1;
+}
+h1
+{
+    color: blue;
+    text-align: center;
+    margin: auto;
+}
+footer
+{
+    text-align: center;
+    background-color: rgba(15, 187, 9, 0.26);
+    padding: 3px;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+}
+
+footer .social
+{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 4px 0;
+}
+footer .social a
+{
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+footer .social a:hover
+{
+    transform: translateY(-6px);
+} 
 }

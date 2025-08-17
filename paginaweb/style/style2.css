@@ -1,6 +1,12 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 body
 {
-    background-image: url(../img/udem.jpeg);
+    background-color: blanchedalmond;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
@@ -29,4 +35,72 @@ a
 a:hover
 {
     background-color: rgba(240, 255, 240, 0.192);
+}
+
+.sec-1 
+{
+    text-align: center;
+    padding: 40px;
+}
+p
+{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+@media (max-width: 500px)
+{
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: blanchedalmond;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+nav
+{
+   
+    padding: 8px;
+    text-align: center;
+    display: inline-block;
+}
+
+a
+{
+   background-color: rgb(127, 255, 202);
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: rgb(7, 7, 7);
+   padding: 12px;
+   text-decoration: none;
+   margin: 2px;
+   font-size: none;
+   align-content: left;
+   border-radius: 10px;
+   display: inline-block;
+
+}
+
+a:hover
+{
+    background-color: rgba(240, 255, 240, 0.192);
+}
+
+.sec-1 
+{
+    text-align: center;
+    padding: 40px;
+}
+p
+{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
 }
